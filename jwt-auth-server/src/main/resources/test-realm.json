@@ -434,7 +434,7 @@
     "enabled" : true,
     "clientAuthenticatorType" : "client-secret",
     "secret" : "jwtClientSecret",
-    "redirectUris" : [ "http://localhost:8084/" ],
+    "redirectUris" : [ "http://localhost:8084/", "http://localhost:8082/jwt-client/login/oauth2/code/custom" ],
     "webOrigins" : [ "+" ],
     "notBefore" : 0,
     "bearerOnly" : false,
